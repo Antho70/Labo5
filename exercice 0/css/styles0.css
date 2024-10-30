@@ -1,0 +1,112 @@
+body {
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+
+
+#conteneur {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      border-radius: 16px;
+      width: 500px;
+      height: 150px;
+      text-align: center;
+      color: black;
+      padding: 1em;
+      justify-content: center;
+
+
+}
+
+#conteneur div {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: 1px solid black;
+
+
+}
+
+#conteneur div:nth-child(odd) {
+
+      background-color: pink;
+}
+
+#conteneur div:nth-child(even) {
+
+      background-color: rgb(173, 230, 224);
+}
+
+
+#conteneur2 {
+      display: grid;
+      grid-template-columns: 1fr 2fr 3fr;
+      border-radius: 16px;
+      width: 500px;
+      height: 150px;
+      text-align: center;
+      color: black;
+      padding: 1em;
+      justify-content: center;
+      
+
+
+}
+
+#conteneur2 div {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: 1px solid black;
+
+
+}
+
+#conteneur2 div:nth-child(odd) {
+
+      background-color: pink;
+}
+
+#conteneur2 div:nth-child(even) {
+
+      background-color: rgb(173, 230, 224);
+}
+
+
+#conteneur3 {
+      display: grid;
+      grid-template-columns: 1fr 2fr 3fr;
+      grid-template-rows: 2fr 1fr 1fr;
+      border-radius: 16px;
+      width: 500px;
+      height: 150px;
+      text-align: center;
+      color: black;
+      padding: 1em;
+      justify-content: center;
+      gap: 1px;
+      
+
+
+}
+
+#conteneur3 div {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: 1px solid black;
+
+
+}
+
+#conteneur3 div:nth-child(odd) {
+
+      background-color: pink;
+}
+
+#conteneur3 div:nth-child(even) {
+
+      background-color: rgb(173, 230, 224);
+}
