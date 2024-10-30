@@ -9,15 +9,15 @@ body {
 .puzzle {
 
     display: grid;
-    grid-template-rows: auto;
-    grid-template-columns: auto;
+    grid-template-rows: (3,1fr);
+    grid-template-columns: (3,1fr);
     gap: 0px;
     grid-template-areas:
         "piece1 piece1 piece2 piece3"
          "piece4 piece5 piece5 piece3"
          "piece6 piece7 piece8 piece8"
          "piece6 piece9 piece9 piece10";
-    width: 450px;
+    max-width: 60%;;
     height: 450px;
 }
 
